@@ -19,7 +19,7 @@
 Feature: To login in ODeX Website
   I want to use this template for my feature file
 
-
+  
   Scenario Outline: 
     Given I open the ODeX url in the browser
     When I enter the "<username>"
@@ -29,7 +29,7 @@ Feature: To login in ODeX Website
     Then I click the confirm button
  Examples: 
       |      username         | password | companyname  |
-      | sukesh.jain@gmail.com | admin    | CHA Company |
+      | sukesh.jain@gmail.com | admin   | CHA Company |
 
 
 

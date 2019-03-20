@@ -19,9 +19,10 @@
 
 Feature: To create a new form13 request for terminal NSICT
 
-
-Scenario: 
+@Login
+Scenario:
 Given I select the location
+| Mundra |
 And I click the go button
 Then I click the form13 dropdown
 And I click the new request
@@ -40,7 +41,7 @@ And I select the issueto
 And I insert the shippername
 Then I click the improw button
 Then I attach the attachments
-And I click the submit button
+And I click the submit button 
 
 
 

@@ -8,6 +8,7 @@ import cucumber.api.junit.Cucumber;
 @Cucumber.Options
 (features="src\\test\\resources\\",
 glue={"StepDefinition"},
+tags={"@Login"},
 format = {"pretty", "html:src\\test\\resources\\"},
 monochrome=true)
 
